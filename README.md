@@ -1,1 +1,1 @@
-Group three react training with Vite
+Group three Home Puppypage page built in  react + vite +React-Bootstrap
