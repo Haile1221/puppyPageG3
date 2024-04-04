@@ -1,0 +1,81 @@
+/* Overall Declarations */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* header section/ .blueBg common to both header and footer  section */
+.blueBg {
+  background-color: #085070;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* .blueBg h1 to target Header text  */
+
+.blueBg h1 {
+  padding: 15px 0;
+  font-size: 50px;
+}
+/* Banner section */
+#banner,
+#banner img {
+  width: 100%;
+}
+
+/* main-contents */
+.container {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  margin: 2% auto; /*targets four margins in once */
+}
+
+/* missing-puppy  or .middle-text section */
+.container .middle-text {
+  padding-top: 12%;
+  padding-top: 135px;
+  background-color: #f04d65;
+  margin: 0 3%;
+  border: 5px dashed #65f04d;
+}
+
+/* position  can substitute /* padding-top: 12%;  .container .middle-text */
+/* .middle-text p {
+  position: relative;
+  top: 500px;
+} */
+
+/*Missing puppy section to target both container and  p */
+.container .middle-text p {
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  /* padding-top: 135px; */
+}
+
+/* .last-section  section to target h2 */
+
+.last-section h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+}
+
+/* target last two puppies to adjust their margins */
+.container .puppy-3 {
+  margin-right: 3%;
+}
+
+.container .puppy-4 {
+  margin-left: 3%;
+}
+
+/*  targeting footer p , Common properties were provide in common with header   */
+.blueBg p {
+  font-size: 35px;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
